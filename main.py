@@ -12,7 +12,7 @@ bot = telebot.TeleBot(TOKEN)
 # Inicializar Firebase
 cred = credentials.Certificate("firebase-credentials.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://angocas-8b3e3-default-rtdb.firebaseio.com/
+    'databaseURL': 'https://angocas-8b3e3-default-rtdb.firebaseio.com/'
 })
 
 def get_user_ref(user_id):
