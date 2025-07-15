@@ -6,7 +6,8 @@ from firebase_admin import credentials, db
 from keep_alive import keep_alive
 
 # Token do bot
-TOKEN = os.environ.get("7474368528:AAF1zyWlVuIpoqyQtFhZV7mvVQrHuo_WmOE")
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
+
 bot = telebot.TeleBot(TOKEN)
 
 # Inicializar Firebase
